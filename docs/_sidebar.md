@@ -1,14 +1,9 @@
-
 - Incentive Design
-    - [Overview](./Incentive%20Design/incentive_overview.md)
+    - [Overview](./incentive/incentive_overview.md)
 
-    - Inference
-        - [Scoring](./Incentive%20Design/inference_scoring.md)
+    - [Inference](./incentive/inference_scoring.md)
 
-
-    - Quantization
-        - [Scoring](./Incentive%20Design/quantization_scoring.md)
-        
+    - [Quantization](./incentive/quantization_scoring.md)     
 
 - Papers
     - [Lite Paper](./Papers/loosh_litepaper.md)
