@@ -6,7 +6,7 @@
     - [Quantization](./incentive/quantization_scoring.md)     
 
 - Papers
-    - [Lite Paper](./Papers/loosh_litepaper.md)
+    - [White Paper](./whitepapers/loosh_litepaper.md)
 
 - Media/Assets
     - [loosh_logo_lg.png](./assets/loosh_logo_lg.png)
