@@ -5,7 +5,7 @@ Loosh AI is developing a new class of emotionally and ethically intelligent arti
 
 Our goal is to deliver Cognition as a Service through scalable, API-accessible infrastructure built on Bittensor. The platform will support applications across telehealth, neurodivergent communication, ethical robotics, and adaptive digital companions. Loosh agents will be capable of emotionally-aware interaction, continuous self-refinement, and ethical decision-making aligned with human oversight and societal norms.
 
-See our [White Paper](./docs/whitepapers/loosh_litepaper.md) for more detail about our architecture and approach.
+See our **[White Paper](./docs/whitepapers/loosh_litepaper.md)** for more detail about our architecture and approach.
 
 ## Key Capabilities
 
