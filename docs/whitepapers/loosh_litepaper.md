@@ -246,6 +246,6 @@ Principal development is well underway with multiple workstreams fucused on diff
 
 ## Acknowledgments
 
-We would like to thank the numerous participants in the bittensor community who have provided feedback, perspective, direction and enthusiasm. In particular we would like to thank Max Sebti of Score, Shadi Paterson of Giga, Spencer from Inference Labs, and Lindsey Stone of Yuma for their insight and guidance.
+We would like to thank the numerous participants in the bittensor community who have provided feedback, perspective, direction and enthusiasm. In particular we would like to thank Max Sebti of Score, Shadi Paterson of Giga, Spencer from Inference Labs, and Lindsay Stone of Yuma for their insight and guidance.
 <br><br> 
 Additionally we would like to thank [Score](http://scorevision.io/) and [Macrocosmos](https://www.macrocosmos.ai/) for their well designed subnet code and incentive mechanisms from which we have learned (and borrowed) a great deal. We hope to pay it forward.
