@@ -5,7 +5,7 @@ Loosh AI is developing a new class of emotionally and ethically intelligent arti
 
 Our goal is to deliver Cognition as a Service through scalable, API-accessible infrastructure built on Bittensor. The platform will support applications across telehealth, neurodivergent communication, ethical robotics, and adaptive digital companions. Loosh agents will be capable of emotionally-aware interaction, continuous self-refinement, and ethical decision-making aligned with human oversight and societal norms.
 
-See our [White Paper](./Papers/loosh_whitepaper.md) for more detail about our architecture and approach.
+See our [White Paper](./whitepapers/loosh_litepaper.md) for more detail about our architecture and approach.
 
 ## Key Capabilities
 
@@ -28,19 +28,6 @@ See our [White Paper](./Papers/loosh_whitepaper.md) for more detail about our ar
 
 Loosh AI is in active development. The architecture has been defined and prototyped across multiple layers. Initial deployments will consolidate functionality on a single Bittensor subnet, with plans to expand to multiple subnets and decentralized storage. Developer SDKs are also in development to support easy integration with robotics platforms and agentic software frameworks.
 
-## Revenue Model
-
-Loosh follows a fee-based model grounded in system usage. Customers will be billed per cognition minute, with tiered pricing based on inference complexity. Two product lines are under development: Agentic AI for software-only deployments, and Humanoid Robotics for edge-deployed systems with an annual licensing model.
-
-<!-- ## Applications in Development
-
-- Telehealth agents and assistive robots with affective awareness  
-- Augmentative communication tools for neurodivergent users  
-- Emotionally responsive AI therapy agents  
-- Ethically constrained robotics for industrial and defense use  
-- Adaptive digital companions that evolve with the user -->
-
 ## Vision
 
 Our mission is to engineer artificial minds that do more than simulate intelligence. We are building systems that can understand, relate, and evolve—partnering with humans through emotional insight and ethical alignment.
-
