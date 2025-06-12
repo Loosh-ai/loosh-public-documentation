@@ -222,7 +222,7 @@ This model is being designed to accommodate a range of deployments—from lightw
 
 Our founding team is comprised of Lisa Cheng, Co-founder and CEO, and Chris Sorel, Co-founder and CTO.
 
-Lisa brings extensive experience in blockchain, business development, tokenomics, and executive leadership.
+Lisa brings extensive experience in blockchain, business development, tokenomics, and executive leadership. She is currently serving as the Blockchain Architect at a US-based AI Company. 
 
 Chris brings over 25 years of software engineering and architecture experience across many hundreds of projects ranging from startups to fortune 100. Chris also brings extensive experience in project & team leadership, business management, and business development.
 
