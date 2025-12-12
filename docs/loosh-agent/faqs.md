@@ -176,7 +176,12 @@ Please contact our support team with:
 
 ### Is my data secure?
 
-Yes, we take security seriously. All communications are encrypted, and we follow industry best practices for data protection.
+The short answer is, no, your data is not secure. While all communications are encrypted, and we follow industry best practices for data protection. The demo environment is running on permissionless compute. That means that third parties may be exposed to your prompts. This is by design, as this is not only a testbed for our technologies but also a testbed for running on the bittensor platform. Anyone can run a miner on the platform, and the v1 codebase for our subnet can not control what miners do with that data. We will be interodcing trusted compute environments in future iterations to address this. See our roadmap for more information.
+
+Additionally, we will be reviewing any and all interactions with the system for quality assurance, testing and potentially for model trainig or fine tuning.
+
+So, while we're not selling your data, nor are we exposing your data to other users, your data will pass through third parties. So, use the platform to your heart's content, but don't add any personal or personally identifiable information into the system. We have implemented basic PII and sensitive data filtering, but we offer no warranty or guarantee of any kind in this regard. See our terms of service for more detail.
+
 
 ### What data do you collect?
 
@@ -185,10 +190,11 @@ We collect only what's necessary to provide the service, including:
 - Account information (email, name)
 - Conversation content for session functionality
 - Usage analytics to improve the service
+- User specific memories are saved in the memory system
 
 ### Can I delete my data?
 
-Yes, you can request deletion of your account and associated data by contacting our support team.
+Yes, you can request deletion of your account and associated data by contacting our support team. But as noted above, it is possible that that data was collected by other parties and we have no control over this.
 
 ---
 
