@@ -226,7 +226,7 @@ Send:
 
 The short answer: **no — not in the way you’d expect from a traditional SaaS product.**
 
-We do encrypt traffic and follow industry best practices where we can. But this **demo environment runs on permissionless compute**, which means **third parties may process (and therefore be exposed to) your prompts**. That’s intentional: Loosh is not only a testbed for our agentic technologies, it’s also a testbed for operating on the **[Bittensor](https://bittensor.com/)** platform.
+We do encrypt traffic and follow industry best practices where we can. But this **demo environment runs on permissionless compute**, which means **third parties may process (and therefore be exposed to) your prompts**. That’s intentional: Loosh is not only a testbed for our agentic technologies, it’s also a testbed for operating on the <a href="https://bittensor.com/" target ="_blank">**[Bittensor]**</a> platform.
 
 Because **anyone can run a miner**, and the current **v1 subnet codebase can’t control what miners do with data**, we can’t offer strong guarantees about confidentiality today. We plan to introduce **trusted compute environments** in future iterations to address this — see the roadmap for where that’s headed.
 
@@ -234,7 +234,7 @@ Also: we may review interactions for **quality assurance, testing, and potential
 
 So while we’re **not selling your data**, and we’re **not exposing your data to other Loosh users**, your data **may pass through third parties**.
 
-**Use the platform freely — but don’t include personal, confidential, or personally identifiable information (PII).** We’ve implemented basic PII/sensitive-data filtering, but we provide **no warranty or guarantee** that it will catch everything. See our Terms of Service for details.
+**Use the platform freely — but don’t include personal, confidential, or personally identifiable information (PII).** We’ve implemented basic PII/sensitive-data filtering, but we provide **no warranty or guarantee** that it will catch everything. See our <a href="https://app.loosh.ai/terms-of-service" target="_blank"> Terms of Service for details.</a>
 
 
 ### What data do you collect?
