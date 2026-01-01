@@ -1,29 +1,46 @@
 # Frequently Asked Questions
 
-Welcome to the Loosh AI FAQ. Here you'll find answers to common questions about our platform and technology.
+Welcome to the Loosh AI FAQ — the fastest way to understand what you’re looking at, what it’s *not*, and why it exists.
 
 ---
 
 ## About Loosh
 
-### What is Loosh?
+### So… this isn’t a chatbot?
 
-Loosh is a **testbed and demonstration environment** for our agentic technologies. We are building services designed to support **autonomous agents and robots** — intelligent systems that can reason, plan, and take action in the real world.
+Right. **Loosh Agent UI *looks* like a chat app because chat is the simplest front-end for demonstrating agentic behavior.** But the thing we’re actually building is **agentic + cognitive services for autonomous robotics** — systems that can *reason, plan, coordinate tools, and take action* in real environments.
 
-This chat interface is a simple, accessible way for people to interact with and explore our underlying technology. While chat is just one interface, the same infrastructure powers more advanced agentic and robotic applications.
+If you come here expecting “ChatGPT, but with a different logo,” you’ll probably be disappointed. That’s not the goal, and we’re not optimizing for that use case.
+
+### Okay then — what *is* it?
+
+**This UI is a testbed.** A sandbox for trying out Loosh’s agentic stack as we build toward:
+
+* **Cognitive services** that orchestrate perception/reasoning/planning loops
+* **Autonomous robotics** workflows (decision-making, control pipelines, tool use, telemetry)
+* **Agent infrastructure** (tracking, evaluation, memory, execution, coordination)
+
+Not everyone has a robot on their desk to deploy our SDK to. So we built this interface as a place to **experience the underlying system** as it evolves.
 
 ### Who is this for?
 
-This demo environment is designed for:
+This environment is most useful for:
 
-- **Developers** exploring agentic AI capabilities
-- **Researchers** interested in autonomous systems
-- **Partners** evaluating our technology for integration
-- **Early adopters** who want to experience the future of AI
+* **Developers** exploring agentic workflows and tool orchestration
+* **Researchers** interested in autonomous systems and decision loops
+* **Partners** evaluating Loosh for integration into real products
+* **Early adopters** who want to poke at “what’s next” (and don’t mind sharp edges)
 
-### Is this a production system?
+### Is this production?
 
-This is a **testbed environment** for demonstration and experimentation. While we strive for reliability, features may change and the system is optimized for showcasing capabilities rather than production workloads.
+No. **This is a beta/demo environment** — a moving target.
+
+* Features may change quickly (or disappear)
+* You may see experimental behaviors
+* Reliability is “demo reliable,” not “SLA reliable”
+* Sometimes the UI is basically a skeleton for shipping the next thing
+
+You’re welcome to use it — just know what you’re signing up for.
 
 ---
 
@@ -31,74 +48,79 @@ This is a **testbed environment** for demonstration and experimentation. While w
 
 ### What is the mode selector?
 
-The mode selector allows you to choose how the AI processes your request. Different modes are optimized for different types of tasks.
+Modes control **how the system executes your request**. Think of it less like “personality” and more like selecting an execution strategy.
 
 ### What is Basic Inference mode?
 
-**Basic Inference** is designed for simple, straightforward requests that can be answered directly:
+**Basic Inference** is for straightforward requests that don’t need deep planning or tool chains:
 
-- Quick questions and answers
-- Simple text generation
-- Basic information retrieval
-- Conversational responses
+* Quick Q&A
+* Simple text generation
+* Lightweight retrieval
+* Casual interaction
 
-This mode provides fast responses for tasks that don't require complex reasoning or external interactions.
+It’s optimized for speed and simplicity.
 
 ### What is Reasoning mode?
 
-**Reasoning** mode is designed for more complex requests that may require:
+**Reasoning** is for requests that benefit from multi-step thinking and orchestration:
 
-- Multi-step problem solving
-- Interaction with external services and tools
-- Data analysis and synthesis
-- Planning and decision-making
-- Tasks that benefit from "thinking through" the problem
+* Multi-step problem solving
+* Tool / service interaction
+* Synthesis across sources
+* Planning and decision-making
+* Tasks where intermediate steps matter
 
-Reasoning mode uses advanced techniques to break down complex problems, consider multiple approaches, and provide more thorough responses. It may take longer but produces higher quality results for challenging tasks.
+It may be slower — because it’s actually *doing more*.
 
 ### Which mode should I use?
 
-| Task Type | Recommended Mode |
-|-----------|------------------|
-| Quick questions | Basic Inference |
-| Simple chat | Basic Inference |
-| Complex analysis | Reasoning |
-| Multi-step problems | Reasoning |
-| Tasks requiring tools | Reasoning |
-| Research and synthesis | Reasoning |
+| Task Type              | Recommended Mode |
+| ---------------------- | ---------------- |
+| Quick questions        | Basic Inference  |
+| Simple chat            | Basic Inference  |
+| Complex analysis       | Reasoning        |
+| Multi-step problems    | Reasoning        |
+| Tasks requiring tools  | Reasoning        |
+| Research and synthesis | Reasoning        |
 
 ### Will there be more modes?
 
-Yes! We will be introducing **new modes aligned with robotic and agentic systems**. These upcoming modes will be designed for:
+Yes — and they’ll look increasingly “robot-shaped.”
 
-- **Robotic control and planning** — Modes optimized for physical world interaction
-- **Autonomous agent workflows** — Modes for long-running, goal-directed tasks
-- **Multi-agent coordination** — Modes for systems involving multiple AI agents
-- **Specialized domain expertise** — Modes tuned for specific industries or use cases
+Upcoming directions include:
 
-Stay tuned to our [Coming Soon](/whats-coming) page for updates on new modes and capabilities.
+* **Robotic control + planning** (physical-world interaction loops)
+* **Goal-directed autonomous workflows** (long-running execution, retries, state)
+* **Multi-agent coordination** (specialists, delegators, supervisors)
+* **Domain-tuned execution modes** (industry-specific cognition + tools)
 
 ---
 
 ## Getting Started
 
-### How do I start a conversation with the AI?
+### How do I start?
 
-Simply type your message in the input field at the bottom of the chat interface and press Enter or click the send button. The AI will process your request and respond in real-time.
+Type into the message box and hit Enter. That’s it.
+
+If you want a better feel for what Loosh is good at, try prompts like:
+
+* “Plan a workflow to accomplish X using tools, then execute step 1.”
+* “Show your reasoning and intermediate steps.”
+* “Use the available services to validate this claim / transform this data.”
 
 ### What types of questions can I ask?
 
-The Loosh AI can help with a wide range of tasks including:
+You *can* ask general questions, but the platform shines when you ask for things like:
 
-- **General questions** - Ask about any topic and get informative responses
-- **Writing assistance** - Get help drafting emails, documents, or creative content
-- **Code help** - Ask programming questions or get code explanations
-- **Analysis** - Request analysis of data, text, or ideas
-- **Problem-solving** - Work through complex problems step by step
+* **Plans, workflows, and tool use**
+* **Reasoned decision-making** (“compare options, justify, select”)
+* **Structured outputs** (schemas, steps, runnable plans)
+* **Transparent execution** (watching what happens under the hood)
 
 ### Is my conversation history saved?
 
-Your conversations are stored during your active session. For privacy and security, conversation history is not persisted long-term unless explicitly saved.
+Your conversations are stored during your active session. **We do not persist long-term history by default** unless you explicitly save it (or a feature you’re using clearly indicates persistence).
 
 ---
 
@@ -106,15 +128,15 @@ Your conversations are stored during your active session. For privacy and securi
 
 ### How do I create an account?
 
-Currently, Loosh is in a closed beta. If you have an invite, you can sign in using the login button in the top right corner. If you don't have access yet, you can request an invite from the login page.
+Loosh is currently in **closed beta**. If you have an invite, sign in via the login button. If not, request access from the login page.
 
 ### What authentication methods are supported?
 
-We support secure authentication through multiple providers. Check the login page for currently available options.
+We support secure authentication through multiple providers. The login page will show what’s currently enabled.
 
 ### How do I log out?
 
-Click on your profile picture or name in the top right corner of the interface, then select "Sign Out" from the dropdown menu.
+Click your profile in the top-right corner and select **Sign Out**.
 
 ---
 
@@ -122,53 +144,59 @@ Click on your profile picture or name in the top right corner of the interface, 
 
 ### What do the event indicators mean?
 
-When you send a message, you may notice event indicators in the header:
+When you send a message, you’ll see connection status indicators:
 
-- **Events Connected** (green) - Real-time event stream is active
-- **Connecting** (yellow) - Establishing connection to event stream
-- **Events Error** (red) - There was an issue with the event stream
+* **Events Connected (green)** — live event stream is active
+* **Connecting (yellow)** — establishing connection
+* **Events Error (red)** — event stream issue detected
 
-### Can I view the AI's processing steps?
+### Can I view what the system is doing?
 
-Yes! Click "Show Events" in the header to open the events sidebar. This shows the real-time processing pipeline, including thinking steps and intermediate results. This transparency is especially useful when using Reasoning mode to see how the AI approaches complex problems.
+Yes — and that’s kind of the point.
+
+Click **Show Events** to open the event sidebar. You’ll see the execution pipeline in real time: planning steps, tool calls, intermediate outputs, and system decisions.
 
 ### What is the correlation ID?
 
-Each conversation message is assigned a unique correlation ID for tracking. This helps debug issues and trace the complete flow of your request through our systems — the same infrastructure that would power autonomous agents in production.
+Each message gets a **correlation ID** so we can trace the full lifecycle of your request through our services — the same type of tracing you’d want in production autonomous systems.
+
+If you report a bug, include the correlation ID. It saves a lot of time.
 
 ---
 
 ## Troubleshooting
 
-### The AI isn't responding - what should I do?
+### The AI isn’t responding — what should I do?
 
-Try these steps:
+Try:
 
-1. Check the connection status indicator in the header
+1. Check the header connection indicator
 2. Refresh the page
-3. Check your internet connection
-4. If the issue persists, try logging out and back in
+3. Verify your network connection
+4. Log out and back in
 
-### Why is the response slow?
+If it still fails, send us the correlation ID and a screenshot.
 
-Response times can vary based on:
+### Why is the response slow sometimes?
 
-- The **mode** you've selected (Reasoning takes longer than Basic Inference)
-- The complexity of your request
-- Current system load
-- External service interactions (in Reasoning mode)
+Common reasons:
 
-Complex requests requiring multi-step reasoning or external tool use may take longer to generate.
+* **Reasoning mode** does more work than Basic Inference
+* Your request requires multi-step planning
+* The system is under load
+* External services/tools are involved
 
-### How do I report a bug or issue?
+If you want speed, keep requests small and use Basic Inference.
 
-Please contact our support team with:
+### How do I report a bug?
 
-- A description of the issue
-- The mode you were using
-- Steps to reproduce the problem
-- Your correlation ID if available
-- Screenshots if applicable
+Send:
+
+* What happened (and what you expected)
+* Mode used (Basic / Reasoning)
+* Steps to reproduce
+* **Correlation ID**
+* Screenshots (if helpful)
 
 ---
 
@@ -176,28 +204,33 @@ Please contact our support team with:
 
 ### Is my data secure?
 
-The short answer is, no, your data is not secure. While all communications are encrypted, and we follow industry best practices for data protection. The demo environment is running on permissionless compute. That means that third parties may be exposed to your prompts. This is by design, as this is not only a testbed for our technologies but also a testbed for running on the bittensor platform. Anyone can run a miner on the platform, and the v1 codebase for our subnet can not control what miners do with that data. We will be interodcing trusted compute environments in future iterations to address this. See our roadmap for more information.
+The short answer: **no — not in the way you’d expect from a traditional SaaS product.**
 
-Additionally, we will be reviewing any and all interactions with the system for quality assurance, testing and potentially for model trainig or fine tuning.
+We do encrypt traffic and follow industry best practices where we can. But this **demo environment runs on permissionless compute**, which means **third parties may process (and therefore be exposed to) your prompts**. That’s intentional: Loosh is not only a testbed for our agentic technologies, it’s also a testbed for operating on the **[Bittensor](https://bittensor.com/)** platform.
 
-So, while we're not selling your data, nor are we exposing your data to other users, your data will pass through third parties. So, use the platform to your heart's content, but don't add any personal or personally identifiable information into the system. We have implemented basic PII and sensitive data filtering, but we offer no warranty or guarantee of any kind in this regard. See our terms of service for more detail.
+Because **anyone can run a miner**, and the current **v1 subnet codebase can’t control what miners do with data**, we can’t offer strong guarantees about confidentiality today. We plan to introduce **trusted compute environments** in future iterations to address this — see the roadmap for where that’s headed.
+
+Also: we may review interactions for **quality assurance, testing, and potentially for model training or fine-tuning**.
+
+So while we’re **not selling your data**, and we’re **not exposing your data to other Loosh users**, your data **may pass through third parties**.
+
+**Use the platform freely — but don’t include personal, confidential, or personally identifiable information (PII).** We’ve implemented basic PII/sensitive-data filtering, but we provide **no warranty or guarantee** that it will catch everything. See our Terms of Service for details.
 
 
 ### What data do you collect?
 
-We collect only what's necessary to provide the service, including:
+We collect what we need to run and improve the system, such as:
 
-- Account information (email, name)
-- Conversation content for session functionality
-- Usage analytics to improve the service
-- User specific memories are saved in the memory system
+* Account info (email, name)
+* Conversation content for session functionality
+* Usage analytics to improve the product
 
 ### Can I delete my data?
 
-Yes, you can request deletion of your account and associated data by contacting our support team. But as noted above, it is possible that that data was collected by other parties and we have no control over this.
+Yes — contact support to request deletion of your account and associated data.
 
 ---
 
-## More Questions?
+## More questions?
 
-If you didn't find what you're looking for, check out our [Documentation](/docs) or reach out to our support team.
+If you didn’t find what you need, check our Documentation or reach out to support.
