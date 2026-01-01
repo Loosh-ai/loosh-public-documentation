@@ -188,6 +188,26 @@ Common reasons:
 
 If you want speed, keep requests small and use Basic Inference.
 
+## Performance & Scaling
+
+### Why can this feel slow sometimes?
+
+Because this UI is doing double-duty: it’s a demo *and* a scaling testbed.
+
+One of our explicit goals is to **understand Loosh’s real scaling needs** as we roll out new agentic services. That means we sometimes **limit usage intentionally** so we can scale in a controlled way, observe system behavior under load, and avoid masking bottlenecks with brute-force infrastructure.
+
+So yes — you may see:
+
+- Slower responses during peak usage
+- Occasional queueing or throttling
+- Latency spikes when we’re testing new pipelines or toolchains
+- Temporary regressions as we ship experiments
+
+This isn’t accidental. **Finding bottlenecks, characterizing performance, and hardening the stack is a core function of this platform.**
+
+If you’re seeing something consistently broken (not just slow), please report it with your correlation ID.
+
+
 ### How do I report a bug?
 
 Send:
