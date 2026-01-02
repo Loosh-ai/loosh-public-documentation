@@ -247,7 +247,12 @@ We collect what we need to run and improve the system, such as:
 
 ### Can I delete my data?
 
-Yes — contact support to request deletion of your account and associated data.
+You can request deletion of your Loosh account and any data Loosh controls that’s associated with it by contacting support.
+
+That said, **this is a demo/test environment and is not a secure system**. Because prompts and outputs may be processed through **permissionless / third-party compute**, we **can’t guarantee** that all copies of your data (or derivatives) can be retrieved or deleted once they’ve traversed external infrastructure.
+
+If data deletion matters to you: **don’t enter personal, confidential, or sensitive information in the first place.**
+
 
 ---
 
