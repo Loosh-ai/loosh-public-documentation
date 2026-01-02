@@ -219,7 +219,7 @@ Send:
 * Screenshots (if helpful)
 
 ---
-
+<span id="privacy"></span> 
 ## Privacy & Security
 
 ### Is my data secure?
