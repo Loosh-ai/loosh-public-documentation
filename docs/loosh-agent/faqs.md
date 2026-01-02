@@ -242,7 +242,7 @@ Also: we may review interactions for **quality assurance, testing, and potential
 
 So while we’re **not selling your data**, and we’re **not exposing your data to other Loosh users**, your data **may pass through third parties**.
 
-**Use the platform freely, but don’t include personal, confidential, or personally identifiable information (PII).** We’ve implemented basic PII/sensitive-data filtering, but we provide **no warranty or guarantee** that it will catch everything. See our <a href="https://app.loosh.ai/terms-of-service" target="_blank"> Terms of Service for details.</a>
+**Use the platform freely, but don’t include personal, confidential, or personally identifiable information (PII).** We’ve implemented basic PII/sensitive-data filtering, but we provide **no warranty or guarantee** that it will catch everything. See our <a href="https://app.loosh.ai/terms-of-service" target="_blank"> Terms of Service</a> for details.
 
 
 ### What data do you collect?
