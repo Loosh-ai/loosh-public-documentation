@@ -2,7 +2,7 @@
 
 Welcome to the Loosh AI FAQ ; the fastest way to understand what you’re looking at, what it’s *not*, and why it exists.
 
----
+
 
 ## About Loosh
 
@@ -42,7 +42,7 @@ No. **This is a beta/demo environment** ; a moving target.
 
 You’re welcome to use it ; just know what you’re signing up for.
 
----
+
 
 ## Mode Selector
 
@@ -76,7 +76,7 @@ It may be slower ; because it’s actually *doing more*.
 ### Which mode should I use?
 
 | Task Type              | Recommended Mode |
-| ---------------------- | ---------------- |
+| - | - |
 | Quick questions        | Basic Inference  |
 | Simple chat            | Basic Inference  |
 | Complex analysis       | Reasoning        |
@@ -95,7 +95,7 @@ Upcoming directions include:
 * **Multi-agent coordination** (specialists, delegators, supervisors)
 * **Domain-tuned execution modes** (industry-specific cognition + tools)
 
----
+
 
 ## Getting Started
 
@@ -120,9 +120,16 @@ You *can* ask general questions, but the platform shines when you ask for things
 
 ### Is my conversation history saved?
 
-Your conversations are stored during your active session. **We do not persist long-term history by default** unless you explicitly save it (or a feature you’re using clearly indicates persistence).
+Yes — in two different ways:
 
----
+- **Working memory (short-term):** We keep recent conversation context in a high-speed cache so the system can stay coherent and responsive while you’re using it. Think of this as “what the agent is actively holding in mind.” This is short-lived and primarily for the current session/flow.
+
+- **Long-term memory (persistent):** Loosh also supports a persistent memory system that can store and retrieve “memories” over time. Some memories may be saved **explicitly** (because you asked), and some may be saved **autonomously** (because the system judged it useful for continuity or future actions).
+
+Important: This is a **demo/test environment** and **not a secure system**. Your prompts and outputs may pass through third parties. So even if we support deletion of data we control, **we can’t guarantee complete deletion once data has traversed permissionless/third-party compute**.
+
+If you care about privacy: **don’t enter personal, confidential, or sensitive information.**
+
 
 ## Account & Authentication
 
@@ -138,7 +145,7 @@ We support secure authentication through multiple providers. The login page will
 
 Click your profile in the top-right corner and select **Sign Out**.
 
----
+
 
 ## Features
 
@@ -162,7 +169,7 @@ Each message gets a **correlation ID** so we can trace the full lifecycle of you
 
 If you report a bug, include the correlation ID. It saves a lot of time.
 
----
+
 
 ## Troubleshooting
 
@@ -218,7 +225,7 @@ Send:
 * **Correlation ID**
 * Screenshots (if helpful)
 
----
+
 <span id="privacy"></span> 
 ## Privacy & Security
 
@@ -254,7 +261,7 @@ That said, **this is a demo/test environment and is not a secure system**. Becau
 If data deletion matters to you: **don’t enter personal, confidential, or sensitive information in the first place.**
 
 
----
+
 
 ## More questions?
 
