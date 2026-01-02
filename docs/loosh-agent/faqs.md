@@ -1,6 +1,6 @@
 # Frequently Asked Questions
 
-Welcome to the Loosh AI FAQ ; the fastest way to understand what you’re looking at, what it’s *not*, and why it exists.
+Welcome to the Loosh AI FAQ, the fastest way to understand what you’re looking at, what it’s *not*, and why it exists.
 
 
 
@@ -8,11 +8,11 @@ Welcome to the Loosh AI FAQ ; the fastest way to understand what you’re lookin
 
 ### So… this isn’t a chatbot?
 
-Right. **Loosh Agent UI *looks* like a chat app because chat is the simplest front-end for demonstrating agentic behavior.** But the thing we’re actually building is **agentic + cognitive services for autonomous robotics** ; systems that can *reason, plan, coordinate tools, and take action* in real environments.
+Right. **Loosh Agent UI *looks* like a chat app because chat is the simplest front-end for demonstrating agentic behavior.** But the thing we’re actually building is **agentic + cognitive services for autonomous robotics**, systems that can *reason, plan, coordinate tools, and take action* in real environments.
 
 If you come here expecting “ChatGPT, but with a different logo,” you’ll probably be disappointed. That’s not the goal, and we’re not optimizing for that use case.
 
-### Okay then ; what *is* it?
+### Okay then, what *is* it?
 
 **This UI is a testbed.** A sandbox for trying out Loosh’s agentic stack as we build toward:
 
@@ -33,14 +33,14 @@ This environment is most useful for:
 
 ### Is this production?
 
-No. **This is a beta/demo environment** ; a moving target.
+No. **This is a beta/demo environment**, a moving target.
 
 * Features may change quickly (or disappear)
 * You may see experimental behaviors
 * Reliability is “demo reliable,” not “SLA reliable”
 * Sometimes the UI is basically a skeleton for shipping the next thing
 
-You’re welcome to use it ; just know what you’re signing up for.
+You’re welcome to use it, just know what you’re signing up for.
 
 
 
@@ -71,7 +71,7 @@ It’s optimized for speed and simplicity.
 * Planning and decision-making
 * Tasks where intermediate steps matter
 
-It may be slower ; because it’s actually *doing more*.
+It may be slower, because it’s actually *doing more*.
 
 ### Which mode should I use?
 
@@ -86,7 +86,7 @@ It may be slower ; because it’s actually *doing more*.
 
 ### Will there be more modes?
 
-Yes ; and they’ll look increasingly “robot-shaped.”
+Yes, and they’ll look increasingly “robot-shaped.”
 
 Upcoming directions include:
 
@@ -153,19 +153,19 @@ Click your profile in the top-right corner and select **Sign Out**.
 
 When you send a message, you’ll see connection status indicators:
 
-* **Events Connected (green)** ; live event stream is active
-* **Connecting (yellow)** ; establishing connection
-* **Events Error (red)** ; event stream issue detected
+* **Events Connected (green)**, live event stream is active
+* **Connecting (yellow)**, establishing connection
+* **Events Error (red)**, event stream issue detected
 
 ### Can I view what the system is doing?
 
-Yes ; and that’s kind of the point.
+Yes, and that’s kind of the point.
 
 Click **Show Events** to open the event sidebar. You’ll see the execution pipeline in real time: planning steps, tool calls, intermediate outputs, and system decisions.
 
 ### What is the correlation ID?
 
-Each message gets a **correlation ID** so we can trace the full lifecycle of your request through our services ; the same type of tracing you’d want in production autonomous systems.
+Each message gets a **correlation ID** so we can trace the full lifecycle of your request through our services, the same type of tracing you’d want in production autonomous systems.
 
 If you report a bug, include the correlation ID. It saves a lot of time.
 
@@ -173,7 +173,7 @@ If you report a bug, include the correlation ID. It saves a lot of time.
 
 ## Troubleshooting
 
-### The AI isn’t responding ; what should I do?
+### The AI isn’t responding, what should I do?
 
 Try:
 
@@ -181,6 +181,7 @@ Try:
 2. Refresh the page
 3. Verify your network connection
 4. Log out and back in
+5. Wait a few minutes, we might be deploying something
 
 If it still fails, send us the correlation ID and a screenshot.
 
@@ -203,7 +204,7 @@ Because this UI is doing double-duty: it’s a demo *and* a scaling testbed.
 
 One of our explicit goals is to **understand Loosh’s real scaling needs** as we roll out new agentic services. That means we sometimes **limit usage intentionally** so we can scale in a controlled way, observe system behavior under load, and avoid masking bottlenecks with brute-force infrastructure.
 
-So yes ; you may see:
+So yes , you may see:
 
 - Slower responses during peak usage
 - Occasional queueing or throttling
@@ -231,17 +232,17 @@ Send:
 
 ### Is my data secure?
 
-The short answer: **no ; not in the way you’d expect from a traditional SaaS product.**
+The short answer: **no, not in the way you’d expect from a traditional SaaS product.**
 
 We do encrypt traffic and follow industry best practices where we can. But this **demo environment runs on permissionless compute**, which means **third parties may process (and therefore be exposed to) your prompts**. That’s intentional: Loosh is not only a testbed for our agentic technologies, it’s also a testbed for operating on the <a href="https://bittensor.com/" target ="_blank">**[Bittensor]**</a> platform.
 
-Because **anyone can run a miner**, and the current **v1 subnet codebase can’t control what miners do with data**, we can’t offer strong guarantees about confidentiality today. We plan to introduce **trusted compute environments** in future iterations to address this ; see the roadmap for where that’s headed.
+Because **anyone can run a miner**, and the current **v1 subnet codebase can’t control what miners do with data**, we can’t offer strong guarantees about confidentiality today. We plan to introduce **trusted compute environments** in future iterations to address this, see the roadmap for where that’s headed.
 
 Also: we may review interactions for **quality assurance, testing, and potentially for model training or fine-tuning**.
 
 So while we’re **not selling your data**, and we’re **not exposing your data to other Loosh users**, your data **may pass through third parties**.
 
-**Use the platform freely ; but don’t include personal, confidential, or personally identifiable information (PII).** We’ve implemented basic PII/sensitive-data filtering, but we provide **no warranty or guarantee** that it will catch everything. See our <a href="https://app.loosh.ai/terms-of-service" target="_blank"> Terms of Service for details.</a>
+**Use the platform freely, but don’t include personal, confidential, or personally identifiable information (PII).** We’ve implemented basic PII/sensitive-data filtering, but we provide **no warranty or guarantee** that it will catch everything. See our <a href="https://app.loosh.ai/terms-of-service" target="_blank"> Terms of Service for details.</a>
 
 
 ### What data do you collect?
