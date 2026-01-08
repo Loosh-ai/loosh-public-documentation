@@ -4,73 +4,38 @@ Here's a preview of what we're working on for future releases of Loosh AI Assist
 
 ---
 
-## In Development
+# Product Roadmap
 
-### Conversation History
-**Target: Q1 2025**
+## Q1
+### Stability Improvements
+* **Unified Ethical Evaluator**
+* **Automated Memory**
+* **Context Builder**
+* **Dynamic Plan Generation and Flow Execution**
+* **Ethics Mode**
+* **Fine Tuned Prompts and Flows for Ethical Evaluation**
+* **Subnet Execution**
 
-Save and revisit your past conversations with the AI assistant.
+## Q2
+### DIY Robotic API and SDK
+* **Feedback System**
+    * Thumbs Up and Down
+    * Automated Collection
+    * Agent Initiated Feedback Requests
+* **Memory Storage and Learning**
+* **Robot Learning Mode**
 
-- Persistent conversation storage
-- Search through past conversations
-- Continue previous sessions
-- Export conversation history
+## Q3
+### Policy Based Heuristics
+* **Common Sense Logic**
+* **Rule Based Heuristics for Standard Problem Solving**
+    * Example: Look both ways at road crossings
+* **User Defined Constraints**
+    * Example: Dietary restrictions such as vegetarian preferences
 
-### Custom Themes
-**Target: Q1 2025**
-
-Personalize your Loosh experience with custom color themes.
-
-- Light and dark mode variations
-- Custom accent colors
-- Community-created themes
-- Theme import/export
-
----
-
-## Planned Features
-
-### Team Collaboration
-**Target: Q2 2025**
-
-Share and collaborate on AI sessions with your team.
-
-- Shared workspaces
-- Real-time collaboration
-- Permission management
-- Team conversation templates
-
-### Advanced Export Options
-**Target: Q2 2025**
-
-Download and share your conversations in various formats.
-
-- PDF export with formatting
-- Markdown export
-- JSON/structured data export
-- Share links
-
-### Plugin System
-**Target: Q3 2025**
-
-Extend Loosh with custom plugins and integrations.
-
-- Custom tool integrations
-- Third-party service connections
-- Workflow automation
-- Developer API access
-
----
-
-## Under Consideration
-
-These features are being evaluated based on user feedback:
-
-- **Voice Input/Output** - Speak to the AI and hear responses
-- **Image Understanding** - Upload and analyze images
-- **Code Execution** - Run code snippets directly in chat
-- **Mobile App** - Native iOS and Android applications
-- **Browser Extension** - Quick access from any webpage
+## Q4 and Beyond
+### Voice Mode
+* **V1 Emotional Inference**
 
 ---
 
