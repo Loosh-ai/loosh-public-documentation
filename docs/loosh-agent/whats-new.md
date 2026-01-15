@@ -4,7 +4,18 @@ Stay up to date with the latest features, improvements, and fixes to the Loosh A
 
 ---
 
-## December 2024 Release Notes
+## January 2026 Release Notes
+
+### Bug Reporting
+We have added a bug reporting form to the UI. If you encounter an issue, please send us a note. The most helpful piece of information is the correlation id so be sure to include that if you have one.
+
+### Telemetry and Log Analytics
+It's not flashy, but this is a critical service to help us find and resolve errors as well as measure performance and identify scaling bottlenecks.
+
+### Content Updates
+Ok, it's embarrassing, but we had the wrong years in this doc. Fixed those.
+
+## December 2025 Release Notes
 
 ### Persistent Memory System
 
@@ -47,13 +58,13 @@ We're always working on improvements. See our [what's coming](https://app.loosh.
 
 ## Previous Updates
 
-### November 2024
+### November 2025
 
 * **Event Sidebar** - View real-time processing pipeline
 * **Connection Status** - Live indicator for event stream
 * **Dark Mode** - System-preference based theming
 
-### October 2024
+### October 2025
 
 * **Initial Release** - Loosh AI Assistant beta launch
 * **User Authentication** - Secure login system
