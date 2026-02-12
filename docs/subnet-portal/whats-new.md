@@ -1,5 +1,27 @@
 # Latest Updates
 
+## v1.2.1 — February 2026
+
+Portal gets interactive! Click any miner to see what they've been up to, track incentive trends over time, and see where everyone stands on the new leader graph.
+
+### Miner Detail Popover
+
+Click any miner row — on the main page or the stats table — and a detail dialog pops up with everything you'd want to know: hotkey, stake, consensus, current incentive, and a line graph charting their incentive over the last 10 days. No more hunting through tables to compare performance.
+
+### Average Incentive
+
+The detail dialog now shows the miner's **average incentive** across the 10-day window right alongside the current value. Handy for spotting miners that are consistently earning vs. ones that just spiked.
+
+### Leader Distribution Graph
+
+New chart on the stats page. Every active miner is a node on a smooth curve — lowest incentive bottom-left, highest top-right. Hover any dot to see the UID. It's the fastest way to visualize how incentive is distributed across the network and where the cutoffs are.
+
+### Higher-Resolution Snapshots
+
+Incentive snapshots are now recorded **every chain sync cycle** instead of once per day. The history graph is much more granular now — you can see incentive shifts happen in near real-time instead of waiting for the next daily tick.
+
+---
+
 ## v1.2.0 — February 2026
 
 Big release! We've been busy hardening the network, squashing sybils, and making everything faster. Here's what's new.
