@@ -14,7 +14,11 @@ The detail dialog now shows the miner's **average incentive** across the 10-day 
 
 ### Leader Distribution Graph
 
-New chart on the stats page. Every active miner is a node on a smooth curve — lowest incentive bottom-left, highest top-right. Hover any dot to see the UID. It's the fastest way to visualize how incentive is distributed across the network and where the cutoffs are.
+New chart on the stats page. Every active miner is a dot on a smooth curve — lowest incentive bottom-left, highest top-right. Hover any dot to see the UID. Miners still in their **immunity period** show up in green, while everyone else is cyan. You can instantly tell who's new and protected from deregistration vs. who's earning their spot.
+
+### Find Your Miner
+
+There's a search box right in the distribution chart. Type a UID and the matching miner lights up in blue at a larger size — no more scanning a hundred dots trying to find yourself.
 
 ### Higher-Resolution Snapshots
 
